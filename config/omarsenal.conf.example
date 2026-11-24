@@ -1,0 +1,21 @@
+# Omarsenal settings. Copied to ~/.config/omarsenal/omarsenal.conf on install.
+# Sourced by bash, so use shell syntax.
+
+# Where target profiles live. Keep this outside any git repo.
+OMARSENAL_TARGETS="$HOME/omarsenal-targets"
+
+# systemd units started in blue and purple modes (space separated).
+# Zeek is usually run with zeekctl rather than a unit; add one here if you create it.
+BLUE_SERVICES="suricata.service"
+
+# Hyprland workspace used by omarsenal-workspace
+OPS_WORKSPACE=9
+
+# Waybar signal used to refresh the mode module
+WAYBAR_SIGNAL=8
+
+# Network interface shown in red mode (VPN to the target network)
+VPN_INTERFACE="tun0"
+
+# Suricata alert log shown in blue mode
+SURICATA_FAST_LOG="/var/log/suricata/fast.log"

@@ -1,0 +1,9 @@
+# Engagement data never goes in git
+targets/
+omarsenal-targets/
+*.log
+*.pcap
+*.pcapng
+.env
+*.key
+*.pem

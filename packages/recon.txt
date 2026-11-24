@@ -1,0 +1,8 @@
+# Recon: host discovery, DNS, OSINT
+nmap
+masscan
+whois
+bind              # dig, host, nslookup
+dnsrecon
+amass
+theharvester

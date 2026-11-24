@@ -1,0 +1,17 @@
+# Practice targets. Bound to localhost only so nothing is exposed to your network.
+#   docker compose -f labs/docker-compose.yml up -d
+#   docker compose -f labs/docker-compose.yml down
+# Add 127.0.0.1 to a lab target's scope.txt to scan these in red mode.
+
+services:
+  juice-shop:
+    image: bkimminich/juice-shop
+    ports:
+      - "127.0.0.1:3000:3000"
+    restart: unless-stopped
+
+  dvwa:
+    image: vulnerables/web-dvwa
+    ports:
+      - "127.0.0.1:8080:80"
+    restart: unless-stopped

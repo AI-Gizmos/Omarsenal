@@ -1,0 +1,5 @@
+# Network capture and attacks
+wireshark-qt
+tcpdump
+responder
+python-impacket

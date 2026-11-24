@@ -1,0 +1,5 @@
+# Blue team: network detection for blue and purple modes
+# Package sources for these move between the official repos, BlackArch and the AUR.
+# install-category.sh resolves whichever is available and asks before using the AUR.
+suricata
+zeek

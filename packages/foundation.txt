@@ -1,0 +1,10 @@
+# Foundation: containers, terminal multiplexer, build tools, scope-guard dependency
+docker
+docker-compose
+docker-buildx
+tmux
+git
+base-devel
+python
+util-linux        # provides `script` for session logging
+libnotify         # notify-send for mode changes

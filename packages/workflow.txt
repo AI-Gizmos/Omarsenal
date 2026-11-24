@@ -1,0 +1,4 @@
+# Workflow: engagement notes
+obsidian
+# Claude Code and Codex are not installed here. Use their official installers,
+# then point them at AGENTS.md in this repo.

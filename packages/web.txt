@@ -1,0 +1,7 @@
+# Web application testing
+burpsuite
+ffuf
+gobuster
+sqlmap
+nikto
+seclists          # wordlists, shared with passwords
